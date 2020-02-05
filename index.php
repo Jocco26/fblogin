@@ -60,7 +60,7 @@ else
 
     //by using php echo
 
-    $facebook_login_url = $facebook_helper->getLoginUrl('https://donantonio.herokuapp.com/', $facebook_permissions);
+    $facebook_login_url = $facebook_helper->getLoginUrl('https://dafblogin.herokuapp.com/', $facebook_permissions);
 
     //gives index page with clickable link thats leads facebook login url
     $facebook_login_url = '<div align="center"><a href="'.$facebook_login_url.'"><img src="php-login-with-facebook.gif" /></a></div>';
